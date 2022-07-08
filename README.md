@@ -13,3 +13,4 @@ which is version of this app for such a case.
 Working example of this app could be seen at:  
 https://object-detecto-prod-object-detector-fgvx4s.mo2.mogenius.io/
 
+![result](https://user-images.githubusercontent.com/105928466/177966317-a465b2f2-4766-4220-b850-92acd670cb68.jpg)
