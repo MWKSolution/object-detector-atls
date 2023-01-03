@@ -9,6 +9,9 @@ import warnings
 # get rid of torch deprecation warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
+PATH = path.dirname(__file__)
+torch.hub.set_dir(PATH + '/hub')
+
 # available models for torch.vision
 RESNET = detection.fasterrcnn_resnet50_fpn
 MOBILENET = detection.fasterrcnn_mobilenet_v3_large_320_fpn
