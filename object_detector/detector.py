@@ -5,6 +5,7 @@ import torch
 import cv2
 from object_detector.coco_categories import get_categories
 import warnings
+from os import path
 
 # get rid of torch deprecation warnings
 warnings.filterwarnings("ignore", category=UserWarning)
